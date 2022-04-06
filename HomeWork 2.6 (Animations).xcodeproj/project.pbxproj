@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		A1A732C027FC436A00CBF0E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A732BF27FC436A00CBF0E7 /* AppDelegate.swift */; };
 		A1A732C227FC436A00CBF0E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A732C127FC436A00CBF0E7 /* SceneDelegate.swift */; };
-		A1A732C427FC436A00CBF0E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A732C327FC436A00CBF0E7 /* ViewController.swift */; };
+		A1A732C427FC436A00CBF0E7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A732C327FC436A00CBF0E7 /* MainViewController.swift */; };
 		A1A732C727FC436A00CBF0E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A732C527FC436A00CBF0E7 /* Main.storyboard */; };
 		A1A732C927FC436C00CBF0E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A732C827FC436C00CBF0E7 /* Assets.xcassets */; };
 		A1A732CC27FC436C00CBF0E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A732CA27FC436C00CBF0E7 /* LaunchScreen.storyboard */; };
+		A1A732D927FC59F200CBF0E7 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A732D827FC59F200CBF0E7 /* Animation.swift */; };
+		A1A732DB27FC5B4700CBF0E7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A732DA27FC5B4700CBF0E7 /* DataManager.swift */; };
+		A9EC445A5D58FD4E75650ADF /* Pods_HomeWork_2_6__Animations_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4010B5547ACF5FF10063F60 /* Pods_HomeWork_2_6__Animations_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1044DDB08B51A2C911FFF7DC /* Pods-HomeWork 2.6 (Animations).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork 2.6 (Animations).release.xcconfig"; path = "Target Support Files/Pods-HomeWork 2.6 (Animations)/Pods-HomeWork 2.6 (Animations).release.xcconfig"; sourceTree = "<group>"; };
 		A1A732BC27FC436A00CBF0E7 /* HomeWork 2.6 (Animations).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork 2.6 (Animations).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A732BF27FC436A00CBF0E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1A732C127FC436A00CBF0E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A1A732C327FC436A00CBF0E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1A732C327FC436A00CBF0E7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A1A732C627FC436A00CBF0E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1A732C827FC436C00CBF0E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1A732CB27FC436C00CBF0E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1A732CD27FC436C00CBF0E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1A732D827FC59F200CBF0E7 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		A1A732DA27FC5B4700CBF0E7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		AD6EEEB01F9CEFB9A3E65CF2 /* Pods-HomeWork 2.6 (Animations).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork 2.6 (Animations).debug.xcconfig"; path = "Target Support Files/Pods-HomeWork 2.6 (Animations)/Pods-HomeWork 2.6 (Animations).debug.xcconfig"; sourceTree = "<group>"; };
+		B4010B5547ACF5FF10063F60 /* Pods_HomeWork_2_6__Animations_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeWork_2_6__Animations_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9EC445A5D58FD4E75650ADF /* Pods_HomeWork_2_6__Animations_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EC530B595F7F1B502FBA0AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD6EEEB01F9CEFB9A3E65CF2 /* Pods-HomeWork 2.6 (Animations).debug.xcconfig */,
+				1044DDB08B51A2C911FFF7DC /* Pods-HomeWork 2.6 (Animations).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7D1C72A4F55E19613C1D64B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4010B5547ACF5FF10063F60 /* Pods_HomeWork_2_6__Animations_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1A70A1E27FDAB79008DE9A4 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				A1A732DA27FC5B4700CBF0E7 /* DataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
 		A1A732B327FC436A00CBF0E7 = {
 			isa = PBXGroup;
 			children = (
 				A1A732BE27FC436A00CBF0E7 /* HomeWork 2.6 (Animations) */,
 				A1A732BD27FC436A00CBF0E7 /* Products */,
+				3EC530B595F7F1B502FBA0AA /* Pods */,
+				7D1C72A4F55E19613C1D64B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +92,57 @@
 		A1A732BE27FC436A00CBF0E7 /* HomeWork 2.6 (Animations) */ = {
 			isa = PBXGroup;
 			children = (
-				A1A732BF27FC436A00CBF0E7 /* AppDelegate.swift */,
-				A1A732C127FC436A00CBF0E7 /* SceneDelegate.swift */,
-				A1A732C327FC436A00CBF0E7 /* ViewController.swift */,
-				A1A732C527FC436A00CBF0E7 /* Main.storyboard */,
-				A1A732C827FC436C00CBF0E7 /* Assets.xcassets */,
-				A1A732CA27FC436C00CBF0E7 /* LaunchScreen.storyboard */,
-				A1A732CD27FC436C00CBF0E7 /* Info.plist */,
+				A1A732D527FC4F5200CBF0E7 /* ViewControllers */,
+				A1A70A1E27FDAB79008DE9A4 /* DataManager */,
+				A1A732D727FC4F7900CBF0E7 /* Models */,
+				A1A732D627FC4F5D00CBF0E7 /* Storyboards */,
+				A1A732D327FC4F3100CBF0E7 /* Resources */,
+				A1A732D427FC4F4700CBF0E7 /* App */,
 			);
 			path = "HomeWork 2.6 (Animations)";
+			sourceTree = "<group>";
+		};
+		A1A732D327FC4F3100CBF0E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1A732C827FC436C00CBF0E7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A1A732D427FC4F4700CBF0E7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A1A732BF27FC436A00CBF0E7 /* AppDelegate.swift */,
+				A1A732C127FC436A00CBF0E7 /* SceneDelegate.swift */,
+				A1A732CD27FC436C00CBF0E7 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A1A732D527FC4F5200CBF0E7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1A732C327FC436A00CBF0E7 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A1A732D627FC4F5D00CBF0E7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A1A732C527FC436A00CBF0E7 /* Main.storyboard */,
+				A1A732CA27FC436C00CBF0E7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A1A732D727FC4F7900CBF0E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1A732D827FC59F200CBF0E7 /* Animation.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1A732D027FC436C00CBF0E7 /* Build configuration list for PBXNativeTarget "HomeWork 2.6 (Animations)" */;
 			buildPhases = (
+				347B8CFE1D1E6AF810B57BC3 /* [CP] Check Pods Manifest.lock */,
 				A1A732B827FC436A00CBF0E7 /* Sources */,
 				A1A732B927FC436A00CBF0E7 /* Frameworks */,
 				A1A732BA27FC436A00CBF0E7 /* Resources */,
+				73E30AF9FE2E3DA5E616F53D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +213,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		347B8CFE1D1E6AF810B57BC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeWork 2.6 (Animations)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73E30AF9FE2E3DA5E616F53D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWork 2.6 (Animations)/Pods-HomeWork 2.6 (Animations)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWork 2.6 (Animations)/Pods-HomeWork 2.6 (Animations)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeWork 2.6 (Animations)/Pods-HomeWork 2.6 (Animations)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A1A732B827FC436A00CBF0E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1A732C427FC436A00CBF0E7 /* ViewController.swift in Sources */,
+				A1A732C427FC436A00CBF0E7 /* MainViewController.swift in Sources */,
+				A1A732DB27FC5B4700CBF0E7 /* DataManager.swift in Sources */,
 				A1A732C027FC436A00CBF0E7 /* AppDelegate.swift in Sources */,
 				A1A732C227FC436A00CBF0E7 /* SceneDelegate.swift in Sources */,
+				A1A732D927FC59F200CBF0E7 /* Animation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +406,7 @@
 		};
 		A1A732D127FC436C00CBF0E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD6EEEB01F9CEFB9A3E65CF2 /* Pods-HomeWork 2.6 (Animations).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,7 +414,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X5R2XG222B;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HomeWork 2.6 (Animations)/Info.plist";
+				INFOPLIST_FILE = "HomeWork 2.6 (Animations)/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -304,12 +429,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A1A732D227FC436C00CBF0E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1044DDB08B51A2C911FFF7DC /* Pods-HomeWork 2.6 (Animations).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,7 +443,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X5R2XG222B;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HomeWork 2.6 (Animations)/Info.plist";
+				INFOPLIST_FILE = "HomeWork 2.6 (Animations)/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +458,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
