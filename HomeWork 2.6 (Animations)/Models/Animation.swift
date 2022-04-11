@@ -6,31 +6,31 @@
 //
 
 struct Animation {
-    let preset: String
+    
+    let name: String
     let curve: String
     let force: Double
     let duration: Double
     let delay: Double
     
-    static func getAnimation() -> [Animation] {
-        var animations: [Animation] = []
-        
-        let presets = DataManager.shared.namesAnimation.shuffled()
-        let curves = DataManager.shared.curvesAnimation.shuffled()
-        let force = DataManager.shared.force
-        let duration = DataManager.shared.duration
-        let delay = DataManager.shared.delay
-        
-        for index in 0..<presets.count {
-            let animation = Animation(
-                preset: presets[index],
-                curve: curves[index],
-                force: force,
-                duration: duration,
-                delay: delay
-            )
-            animations.append(animation)
-        }
-        return animations
+    var description: String {
+        """
+        preset: \(name)
+        curve: \(curve)
+        force: \(String(format: "%.02f", force))
+        duration: \(String(format: "%.02f", duration))
+        delay: \(String(format: "%.02f", delay))
+        """
+    }
+    
+    static func getAnimation() -> Animation {
+        Animation(
+            name: DataManager.shared.animations.randomElement()?.rawValue ?? "slideLeft",
+            curve: DataManager.shared.animations.randomElement()?.rawValue ?? "easeIn",
+            force: Double.random(in: 1...1.5),
+            duration: Double.random(in: 0.8...1.6),
+            delay: 0.3
+        )
     }
 }
+

@@ -19,49 +19,25 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="thl-Rr-9kz" customClass="SpringView" customModule="Spring">
                                 <rect key="frame" x="40" y="40" width="240" height="140"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="X5D-FW-Dsr">
-                                        <rect key="frame" x="5" y="3" width="230" height="134.5"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="preset" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zcO-Jp-nyC">
-                                                <rect key="frame" x="0.0" y="0.0" width="230" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="curve" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dlQ-or-a4U">
-                                                <rect key="frame" x="0.0" y="28.5" width="230" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="force" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lm3-bG-jrA">
-                                                <rect key="frame" x="0.0" y="57" width="230" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="duration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMA-gr-g4v">
-                                                <rect key="frame" x="0.0" y="85.5" width="230" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="delay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7U-fs-8Vk">
-                                                <rect key="frame" x="0.0" y="114" width="230" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animation parameters" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FHq-mp-F5S">
+                                        <rect key="frame" x="5" y="5" width="230" height="130"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="X5D-FW-Dsr" firstAttribute="leading" secondItem="thl-Rr-9kz" secondAttribute="leading" constant="5" id="BhX-xG-ZgU"/>
-                                    <constraint firstItem="X5D-FW-Dsr" firstAttribute="centerY" secondItem="thl-Rr-9kz" secondAttribute="centerY" id="cMw-78-erI"/>
-                                    <constraint firstItem="X5D-FW-Dsr" firstAttribute="centerX" secondItem="thl-Rr-9kz" secondAttribute="centerX" id="nqn-bm-zuL"/>
-                                    <constraint firstAttribute="trailing" secondItem="X5D-FW-Dsr" secondAttribute="trailing" constant="5" id="y9B-QN-MBh"/>
+                                    <constraint firstAttribute="bottom" secondItem="FHq-mp-F5S" secondAttribute="bottom" constant="5" id="NGO-ht-lj6"/>
+                                    <constraint firstItem="FHq-mp-F5S" firstAttribute="top" secondItem="thl-Rr-9kz" secondAttribute="top" constant="5" id="TyR-Vv-egf"/>
+                                    <constraint firstItem="FHq-mp-F5S" firstAttribute="leading" secondItem="thl-Rr-9kz" secondAttribute="leading" constant="5" id="aAW-sX-jmx"/>
+                                    <constraint firstAttribute="trailing" secondItem="FHq-mp-F5S" secondAttribute="trailing" constant="5" id="nC6-QS-ZES"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Buz-lO-Ncj">
                                 <rect key="frame" x="40" y="485.5" width="240" height="31"/>
@@ -69,8 +45,13 @@
                                 <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Run"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="runButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="KKr-pQ-rhB"/>
+                                    <action selector="runButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bs5-6c-IGI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -87,12 +68,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="curveAnimationLabel" destination="dlQ-or-a4U" id="6vW-dp-rMo"/>
-                        <outlet property="delayAnimationLabel" destination="V7U-fs-8Vk" id="9U3-ki-w3C"/>
-                        <outlet property="durationAnimationLabel" destination="TMA-gr-g4v" id="JYt-tZ-w2s"/>
-                        <outlet property="forceAnimationLabel" destination="Lm3-bG-jrA" id="id2-nx-sMy"/>
-                        <outlet property="nameAnimationLabel" destination="zcO-Jp-nyC" id="Jmn-qc-ja7"/>
-                        <outlet property="runButton" destination="Buz-lO-Ncj" id="I3k-38-MoL"/>
+                        <outlet property="animationLabel" destination="FHq-mp-F5S" id="5c5-YB-YG6"/>
                         <outlet property="screenView" destination="thl-Rr-9kz" id="LgQ-Mh-rt6"/>
                     </connections>
                 </viewController>
